@@ -8,9 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.3.3",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
@@ -18,5 +18,8 @@
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.5",
     "typescript": "5.8.3"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
   }
 }
