@@ -1,7 +1,152 @@
 [
-  {"question":"What is the purpose of this repository?"},{"question":"Why is Value the central data structure?"},{"question":"How does backpropagation relate to the Value graph?"},{"question":"Why are gradients initialized to zero?"},{"question":"What supports gradient accumulation?"},{"question":"Why does Value track previous values?"},{"question":"What does the _backward closure represent?"},{"question":"Why is topological sort used before backward propagation?"},{"question":"What role do labels play in Value?"},{"question":"Why is tanh implemented as an operation?"},
-  {"question":"How does multiplication compute local gradients?"},{"question":"Why does addition send gradients to both inputs?"},{"question":"What is the purpose of draw_dot?"},{"question":"Why are operations recorded as strings?"},{"question":"How are Python numeric constants handled?"},{"question":"Why does __radd__ exist?"},{"question":"Why does __rmul__ exist?"},{"question":"How is subtraction expressed?"},{"question":"How is division expressed?"},{"question":"Why is power restricted to a scalar exponent?"},
-  {"question":"What is the role of Module?"},{"question":"Why does Module define zero_grad?"},{"question":"What does Neuron initialize?"},{"question":"Why are neuron weights randomized?"},{"question":"How does a Neuron produce output?"},{"question":"What does Layer represent?"},{"question":"Why does Layer return a scalar for one output?"},{"question":"What does MLP compose?"},{"question":"How are MLP parameters collected?"},{"question":"Why do modules use a call interface?"},
-  {"question":"What type of educational implementation is micrograd?"},{"question":"Why are graph nodes scalar values?"},{"question":"How does negation participate in autodiff?"},{"question":"Why does exp have a special backward rule?"},{"question":"What is a computation graph here?"},{"question":"What makes reverse-mode autodiff useful?"},{"question":"Why is a loss expected to be a scalar Value?"},{"question":"Why does backward seed the output gradient with one?"},{"question":"How does graph visualization distinguish nodes?"},{"question":"What should happen before updating parameters?"},
-  {"question":"Why can repeated backward calls change gradients?"},{"question":"What is the relationship between a layer and a neuron?"},{"question":"Why does MLP receive output sizes?"},{"question":"What is the role of bias in a neuron?"},{"question":"How are graph dependencies represented?"},{"question":"Why does the graph use a set for predecessors?"},{"question":"What does a local derivative need?"},{"question":"Why is micrograd suitable for inspection?"},{"question":"What is outside the scope of the repository index?"},{"question":"Why is a graph useful for design-history questions?"}
+  {
+    "question": "What is the primary purpose of the FastAPI framework?"
+  },
+  {
+    "question": "How does FastAPI utilize Pydantic?"
+  },
+  {
+    "question": "What is the role of Starlette in FastAPI?"
+  },
+  {
+    "question": "How are path parameters defined in FastAPI?"
+  },
+  {
+    "question": "How does FastAPI handle query parameters?"
+  },
+  {
+    "question": "What is the dependency injection system in FastAPI used for?"
+  },
+  {
+    "question": "How does FastAPI generate OpenAPI documentation?"
+  },
+  {
+    "question": "What is the purpose of the APIRouter?"
+  },
+  {
+    "question": "How does FastAPI handle asynchronous endpoints?"
+  },
+  {
+    "question": "Why is typing important in FastAPI route definitions?"
+  },
+  {
+    "question": "How are request bodies validated in FastAPI?"
+  },
+  {
+    "question": "What is the purpose of the BackgroundTasks feature?"
+  },
+  {
+    "question": "How does FastAPI handle CORS?"
+  },
+  {
+    "question": "How are exceptions handled globally in FastAPI?"
+  },
+  {
+    "question": "What is the purpose of the Depends function?"
+  },
+  {
+    "question": "How does FastAPI handle form data?"
+  },
+  {
+    "question": "What is the role of the FastAPI class?"
+  },
+  {
+    "question": "How are middleware functions implemented in FastAPI?"
+  },
+  {
+    "question": "How does FastAPI integrate with WebSockets?"
+  },
+  {
+    "question": "What is the purpose of the Response object in a route?"
+  },
+  {
+    "question": "How can you define custom status codes for responses?"
+  },
+  {
+    "question": "How does FastAPI handle file uploads?"
+  },
+  {
+    "question": "What is the use of the Request object in an endpoint?"
+  },
+  {
+    "question": "How does dependency overriding work in testing?"
+  },
+  {
+    "question": "What is the purpose of the TestClient in FastAPI?"
+  },
+  {
+    "question": "How are security schemes like OAuth2 implemented?"
+  },
+  {
+    "question": "What is the role of the Security function?"
+  },
+  {
+    "question": "How does FastAPI handle cookies?"
+  },
+  {
+    "question": "How are headers parsed in route functions?"
+  },
+  {
+    "question": "What is the purpose of the JSONResponse class?"
+  },
+  {
+    "question": "How can you mount sub-applications in FastAPI?"
+  },
+  {
+    "question": "What is the difference between Path and Query in parameter definitions?"
+  },
+  {
+    "question": "How does FastAPI handle generic responses?"
+  },
+  {
+    "question": "What is the purpose of response_model?"
+  },
+  {
+    "question": "How are database sessions typically injected?"
+  },
+  {
+    "question": "What is the purpose of the HTTPException class?"
+  },
+  {
+    "question": "How does FastAPI support GraphQL?"
+  },
+  {
+    "question": "What is the use of the include_in_schema parameter?"
+  },
+  {
+    "question": "How can you define deprecated endpoints?"
+  },
+  {
+    "question": "What is the purpose of the dependencies parameter in APIRouter?"
+  },
+  {
+    "question": "How does FastAPI handle URL routing?"
+  },
+  {
+    "question": "How are custom validators implemented?"
+  },
+  {
+    "question": "What is the role of the Body function?"
+  },
+  {
+    "question": "How does FastAPI handle multiple response types?"
+  },
+  {
+    "question": "What is the purpose of the lifespan parameter in FastAPI app?"
+  },
+  {
+    "question": "How do you implement server-sent events (SSE)?"
+  },
+  {
+    "question": "How does FastAPI handle request validation errors?"
+  },
+  {
+    "question": "What is the purpose of the RequestValidationError exception?"
+  },
+  {
+    "question": "How are tags used in the OpenAPI documentation?"
+  },
+  {
+    "question": "What is the role of the openapi_url parameter?"
+  }
 ]
